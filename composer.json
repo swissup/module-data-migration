@@ -1,0 +1,20 @@
+{
+    "name": "swissup/data-migration",
+    "description": "Data Migration for Swissup Labs modules",
+    "keywords": [
+        "migration from m1 to m2",
+        "data migration"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "require": {
+        "magento/data-migration-tool": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Swissup\\DataMigration\\": ""
+        }
+    }
+}
