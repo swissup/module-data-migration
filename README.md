@@ -4,8 +4,8 @@
 
 ```bash
 cd <magento_root>
-composer config repositories.swissup composer https://swissup.github.io/packages/
-composer require swissup/data-migration
+composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
+composer require swissup/module-data-migration
 bin/magento module:enable Swissup_DataMigration
 bin/magento setup:upgrade
 ```
